@@ -1,86 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/molecules/Tabs/index.test.tsx">
-    <testCase name="Tabs Test tabstest" duration="156"/>
-  </file>
   <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/organisms/AboutBook/index.test.tsx">
-    <testCase name="About book testing Testing for tabs" duration="164"/>
+    <testCase name="About book testing Testing for tabs" duration="207"/>
+  </file>
+  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/molecules/Tabs/index.test.tsx">
+    <testCase name="Tabs Test tabstest" duration="205"/>
   </file>
   <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/organisms/Tabs/index.test.tsx">
-    <testCase name="Tabs test Is finished test" duration="252"/>
+    <testCase name="Tabs test Is finished test" duration="299"/>
   </file>
   <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/organisms/BookCategories/index.test.tsx">
-    <testCase name="Book categories test Trending test" duration="526"/>
-    <testCase name="Book categories test Featured test" duration="261"/>
-    <testCase name="Book categories test Just Added test" duration="275"/>
-  </file>
-  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/pages/Entrepreneurship/index.test.tsx">
-    <testCase name="should render the entrepreneurship component" duration="1067"/>
+    <testCase name="Book categories test Trending test" duration="641"/>
+    <testCase name="Book categories test Featured test" duration="409"/>
+    <testCase name="Book categories test Just Added test" duration="246"/>
   </file>
   <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/organisms/BookDescription/index.test.tsx">
-    <testCase name="Book Description Test Test" duration="792"/>
+    <testCase name="Book Description Test Test" duration="906"/>
+  </file>
+  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/pages/Entrepreneurship/index.test.tsx">
+    <testCase name="should render the entrepreneurship component" duration="1352"/>
   </file>
   <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/organisms/ExtendedNav/index.test.tsx">
-    <testCase name="ToolBar Text" duration="301"/>
-    <testCase name="ToolBar onClick" duration="181"/>
+    <testCase name="ToolBar Text" duration="337"/>
+    <testCase name="ToolBar onClick" duration="201"/>
   </file>
   <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/organisms/Header/index.test.tsx">
-    <testCase name="Header test Existence test" duration="374"/>
-  </file>
-  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/organisms/Footer/index.test.tsx">
-    <testCase name="Footer test Testing for data" duration="110"/>
-  </file>
-  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/organisms/Card/index.test.tsx">
-    <testCase name="Card test Finished card test" duration="174"/>
-    <testCase name="Card test Read again card test" duration="74"/>
-    <testCase name="Card test Add To Library card test" duration="77"/>
+    <testCase name="Header test Existence test" duration="424"/>
   </file>
   <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/templates/BookDetails/index.test.tsx">
-    <testCase name="Book Details Template Test Should exist" duration="383"/>
-  </file>
-  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/templates/MyLibrary/index.test.tsx">
-    <testCase name="My Library Test Existence test" duration="2"/>
-  </file>
-  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/molecules/IconAndText/index.test.tsx">
-    <testCase name="Icon And Text test User test" duration="67"/>
-  </file>
-  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/atoms/IconButton/index.test.tsx">
-    <testCase name="Icon Button Test Checking for search icon" duration="136"/>
-    <testCase name="Icon Button Test Checking for dropdown icon" duration="34"/>
+    <testCase name="Book Details Template Test Should exist" duration="461"/>
   </file>
   <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/molecules/FooterNav/index.test.tsx">
-    <testCase name="Footer Nav Test Editorial test" duration="58"/>
-    <testCase name="Footer Nav Test Useful links test" duration="23"/>
-    <testCase name="Footer Nav Test Company test" duration="21"/>
+    <testCase name="Footer Nav Test Editorial test" duration="71"/>
+    <testCase name="Footer Nav Test Useful links test" duration="22"/>
+    <testCase name="Footer Nav Test Company test" duration="16"/>
   </file>
-  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/molecules/Dropdown/index.test.tsx">
-    <testCase name="Dropdown test Explore dropdown test" duration="79"/>
-    <testCase name="Dropdown test Account dropdown test" duration="17"/>
+  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/templates/MyLibrary/index.test.tsx">
+    <testCase name="My Library Test Existence test" duration="1"/>
+  </file>
+  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/organisms/Card/index.test.tsx">
+    <testCase name="Card test Finished card test" duration="178"/>
+    <testCase name="Card test Read again card test" duration="60"/>
+    <testCase name="Card test Add To Library card test" duration="76"/>
   </file>
   <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/molecules/SearchBar/index.test.tsx">
-    <testCase name="Search bar test Search bar" duration="59"/>
+    <testCase name="Search bar test Search bar" duration="68"/>
   </file>
   <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/atoms/Button/index.test.tsx">
-    <testCase name="Button Test Button with start icon and text" duration="137"/>
-    <testCase name="Button Test Button with end icon and text" duration="58"/>
-    <testCase name="Button Test Button with Text" duration="35"/>
+    <testCase name="Button Test Button with start icon and text" duration="122"/>
+    <testCase name="Button Test Button with end icon and text" duration="66"/>
+    <testCase name="Button Test Button with Text" duration="33"/>
+  </file>
+  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/molecules/Dropdown/index.test.tsx">
+    <testCase name="Dropdown test Explore dropdown test" duration="65"/>
+    <testCase name="Dropdown test Account dropdown test" duration="9"/>
+  </file>
+  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/molecules/IconAndText/index.test.tsx">
+    <testCase name="Icon And Text test User test" duration="79"/>
+  </file>
+  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/organisms/Footer/index.test.tsx">
+    <testCase name="Footer test Testing for data" duration="104"/>
+  </file>
+  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/organisms/SearchBarFunction/index.test.tsx">
+    <testCase name="Entrepreneurship Page Existence test" duration="51"/>
   </file>
   <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/atoms/ProgressBar/index.test.tsx">
-    <testCase name="Unit Test - Progress Bar" duration="31"/>
-  </file>
-  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/atoms/Icon/index.test.tsx">
-    <testCase name="Display logo Should display logo" duration="66"/>
+    <testCase name="Unit Test - Progress Bar" duration="36"/>
   </file>
   <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/atoms/Avatar/index.test.tsx">
-    <testCase name="Unit Test - Avatar" duration="34"/>
+    <testCase name="Unit Test - Avatar" duration="35"/>
   </file>
-  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/atoms/Typography/index.test.tsx">
-    <testCase name="Display text Should be heading" duration="27"/>
-    <testCase name="Display text Should be body" duration="4"/>
-    <testCase name="Display text Should be subtitle" duration="10"/>
-    <testCase name="Display text Should be caption" duration="4"/>
+  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/atoms/Icon/index.test.tsx">
+    <testCase name="Display logo Should display logo" duration="37"/>
   </file>
   <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/molecules/Banner/index.test.tsx">
-    <testCase name="Banner test Banner checking" duration="37"/>
+    <testCase name="Banner test Banner checking" duration="44"/>
+  </file>
+  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/atoms/Typography/index.test.tsx">
+    <testCase name="Display text Should be heading" duration="29"/>
+    <testCase name="Display text Should be body" duration="6"/>
+    <testCase name="Display text Should be subtitle" duration="5"/>
+    <testCase name="Display text Should be caption" duration="6"/>
+  </file>
+  <file path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/atoms/IconButton/index.test.tsx">
+    <testCase name="Icon Button Test Checking for search icon" duration="84"/>
+    <testCase name="Icon Button Test Checking for dropdown icon" duration="29"/>
   </file>
 </testExecutions>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1654509007377" clover="3.2.0">
-  <project timestamp="1654509007377" name="All files">
+<coverage generated="1654509659556" clover="3.2.0">
+  <project timestamp="1654509659556" name="All files">
     <metrics statements="381" coveredstatements="219" conditionals="60" coveredconditionals="37" methods="100" coveredmethods="46" elements="541" coveredelements="302" complexity="0" loc="381" ncloc="381" packages="31" files="61" classes="61"/>
     <package name="src">
       <metrics statements="32" coveredstatements="2" conditionals="12" coveredconditionals="0" methods="8" coveredmethods="0"/>
@@ -507,11 +507,11 @@
       <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
       <file name="index.tsx" path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/organisms/SearchBarFunction/index.tsx">
         <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
         <line num="43" count="0" type="stmt"/>
-        <line num="46" count="1" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
         <line num="56" count="0" type="stmt"/>
       </file>
     </package>
@@ -608,7 +608,7 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="theme.tsx" path="/home/vishaly/Desktop/my-blinkist-Backup/my-blinlist/src/components/themes/theme.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="11" type="stmt"/>
+        <line num="3" count="12" type="stmt"/>
       </file>
     </package>
     <package name="src.data">
