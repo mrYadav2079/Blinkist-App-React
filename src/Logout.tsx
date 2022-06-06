@@ -9,7 +9,7 @@ let useStyles = makeStyles({
     
     position: "absolute",
     left:1318,
-    top:75,
+    top:-6,
     zIndex:9
     
   }
