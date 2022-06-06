@@ -44,7 +44,7 @@ export const SearchBarComponent = () => {
     <ThemeProvider theme={theme}>
       <Box className={classes.boxElement}>
         <div className={classes.imageDiv}>
-          <img src={SearchIcon} className={classes.imageProps} />
+          <img src={SearchIcon} alt="img" className={classes.imageProps} />
         </div>
         <input
           type="text"

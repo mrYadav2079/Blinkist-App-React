@@ -62,6 +62,7 @@ let BottomContainer = styled("div")({
   fontFamily: "Cera Pro",
   color: "#6D787E",
 });
+
 const Footer = () => {   
  
   return (

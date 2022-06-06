@@ -1,56 +1,41 @@
-import Box from "@mui/material/Box";
-import Container from "@mui/material/Container";
-import { makeStyles } from "@mui/styles";
-import { createTheme, ThemeProvider } from "@mui/material";
+import { Typography } from "@mui/material";
+import { ThemeProvider } from "@mui/styles";
+import React from "react";
+import  Footer  from "../../organisms/Footer/index";
+import { HeaderComponent } from "../../organisms/Header/index";
+import theme from "../../themes/theme";
 
 
-interface Props {
-  header: React.ReactNode;
-  heading: React.ReactNode;
-  tab: React.ReactNode;
-  // footer: React.ReactNode;
+export interface MyLibraryProps {
+
+    body: React.ReactNode;
 }
 
-const theme = createTheme({
-  components: {
-    MuiTypography: {
-      styleOverrides: {
-        h1: {
-          color: "#03314B",
-          fontFamily: "Cera Pro",
-          fontSize: "36px",
-          lineHeight: "45px",
-          fontStyle: "normal",
-          fontWeight: "700",
-        },
-      },
-    },
-  },
-});
 
-const useStyles = makeStyles({
-  heading: {
-    marginTop: "59px",
-    marginBottom: "59px",
-    marginLeft: "58px"
-  },
-});
-
-const MyLibrary = (props: Props) => {
-  const style = useStyles();
-  return (
-    <ThemeProvider theme={theme}>
-      {props.header}
-      <Container>
-        <Box sx={{ width: "912px", margin: "59px auto " }}>
-          <div className={style.heading}>{props.heading}</div>
-          {props.tab}
-        </Box>
-      </Container>
-      {/* {props.footer} */}
-      {/* <Footer /> */}
-    </ThemeProvider>
-  );
-};
-
-export default MyLibrary;
+export const MyLibrary = (props: MyLibraryProps) => {
+    let {body} = props
+    
+    return (
+        <>
+        <ThemeProvider theme={theme}>
+        <div style={{display:'flex', flexDirection:'column'}}>
+            <HeaderComponent/>
+            <div style={ {paddingBottom:"3.5%"}}>
+            <Typography variant="h1" style={{
+                display: 'flex',
+                flexDirection: 'row',
+                position: 'relative',
+                top: 17,
+                left: 493,
+                fontSize:45,
+            }}>My Library</Typography>
+            </div>
+            <div style={{width:"100%", display: 'flex', justifyContent:'center'}}>
+            {body}
+            </div>
+            <Footer/>
+        </div>
+        </ThemeProvider>
+        </>
+    )
+}

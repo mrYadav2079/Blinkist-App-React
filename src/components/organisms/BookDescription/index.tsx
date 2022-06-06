@@ -181,7 +181,7 @@ export const BookDescription = () => {
           </TabsContainer>
         </LeftContainer>
         <RightContainer>
-          <img src={BeyondEntrepreneur} />
+          <img src={BeyondEntrepreneur} alt="img" />
         </RightContainer>
       </MainContainer>
     </ThemeProvider>

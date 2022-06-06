@@ -164,7 +164,7 @@ export const Card = (props: CardProps) => {
 
   useEffect(() => {
     const retrieveBookById = async(val: number) => {
-      if(val && val != 0) {
+      if(val && val !== 0) {
         const book = await api.get(`/library/${val}`)
         const data = book.data
         setBookInfo(data)
@@ -203,7 +203,7 @@ export const Card = (props: CardProps) => {
     <ThemeProvider theme={theme}>
       <MainContainer onClick={onClick}>
         <ImageContainer>
-          <img src={image} />
+          <img src={image} alt="img" />
         </ImageContainer>
         <InfoContainer>
           <Typography

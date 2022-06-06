@@ -1,29 +1,40 @@
 import { Banner } from '../../components/molecules/Banner'
-import {SearchBarComponent} from '../../components/molecules/SearchBar/index'
+import { useState } from 'react'
 import Categories from '../../components/organisms/BookCategories'
-
+import Sizes from '../../components/organisms/SearchBarFunction/index'
 import {Entrepreneurship} from '../../components/templates/EntrepreneurshipCategory/index'
 import Library from '../../data/Library'
 
+
+
 const EntrepreneurshipPage = () => {
+
+
+
+const[ftitle, setTitle] = useState('')
+
+
+
     return (
         <>
-        <Entrepreneurship 
-       
+        <Entrepreneurship
         banner={<Banner />}
         
-        searchBar={<SearchBarComponent />}
+         sizes={<Sizes setTitle = {setTitle}/>}
         trendingBlinks={
-            <Categories data={Library}
-            status="trending" />
+            // "trending"
+            <Categories data={Library} ftitle = {ftitle}
+                        status="trending" />
         }
         justAddedBlinks={
             <Categories data={Library}
-            status="justAdded" />
+            status="justAdded" ftitle = {ftitle}/>
+            // 'justAdded'
         }
         featuredBlinks={
-            <Categories data={Library}
+            <Categories data={Library} ftitle = {ftitle}
             status="featured" />
+            
         } />
         </>
     )

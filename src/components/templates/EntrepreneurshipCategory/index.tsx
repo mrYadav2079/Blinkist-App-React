@@ -2,9 +2,10 @@ import { styled } from "@mui/styles";
 import  Footer from "../../organisms/Footer/index";
 import { HeaderComponent } from "../../organisms/Header/index";
 
+
 export interface EntrepreneurshipProps {
     
-    searchBar: React.ReactNode;
+    sizes: React.ReactNode;
     trendingBlinks: React.ReactNode;
     justAddedBlinks: React.ReactNode;
     featuredBlinks: React.ReactNode;
@@ -57,14 +58,14 @@ let FooterWrap = styled("div") ({
 })
 
 export const Entrepreneurship = (props: EntrepreneurshipProps) => {
-    let { searchBar, trendingBlinks, justAddedBlinks, banner, featuredBlinks} = props
+    let { sizes, trendingBlinks, justAddedBlinks, banner, featuredBlinks} = props
     return (
         <>
             <HeaderComponent/>
             <BodyContainer>
                 {banner}
                 <SearchContainer>
-                {searchBar}
+                {sizes}
                 </SearchContainer>
                 <TrendingBlinks>
                 {trendingBlinks}

@@ -1,11 +1,9 @@
 import { Story } from "@storybook/react";
 import { Banner } from "../../molecules/Banner";
 import Categories from "../../organisms/BookCategories";
-import Footer from "../../organisms/Footer";
-import { HeaderComponent } from "../../organisms/Header";
 import { Entrepreneurship, EntrepreneurshipProps } from ".";
 import Library from "../../../data/Library"
-import { SearchBar } from "../../molecules/SearchBar/index.stories";
+import Sizes from "../../organisms/SearchBarFunction/index";
 import {MemoryRouter} from 'react-router-dom'
 
 export default {
@@ -18,8 +16,8 @@ let Template: Story<EntrepreneurshipProps> = args => <MemoryRouter><Entrepreneur
 export const EntrepreneurshipPage = Template.bind({})
 EntrepreneurshipPage.args = {
     banner: <Banner />,
-    searchBar: <SearchBar />,
-    trendingBlinks: <Categories data={Library} status="trending" />,
-    featuredBlinks: <Categories data={Library} status="featured" />,
-    justAddedBlinks: <Categories data={Library} status="justAdded" />,
+    sizes: <Sizes setTitle/>,
+    trendingBlinks: <Categories data={Library} ftitle='' status="trending" />,
+    featuredBlinks: <Categories data={Library} ftitle='' status="featured" />,
+    justAddedBlinks: <Categories data={Library} ftitle='' status="justAdded" />,
 }
